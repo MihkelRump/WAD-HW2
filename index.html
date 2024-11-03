@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="index.js"></script>
+    
 </head>
 <body>
     <nav>
-        <a href="index.html" class="nav-link" id="homeLink">Home</a>
-        <a href="addPost.html" class="nav-link" id="addPostLink">Add Post</a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" id="homeLink">Home</a>
+            <span class="separator">|</span>
+            <a href="addPost.html" class="nav-link" id="addPostLink">Add Post</a>
+        </div>
         <div id="userMenu" onclick="toggleDropdown()">
-            <img src="user.jpg" alt="User" class="user-photo">
+            <img src="pictures\blank-profile-picture-973460_1280.webp" alt="User" class="user-photo">
             <div id="dropdown" class="dropdown-content">
                 <p>Username: user123</p>
                 <p>Email: user@example.com</p>
@@ -21,9 +24,21 @@
         </div>
     </nav>
 
-    <main>
-        <h1>Posts</h1>
+    <div class="container">
+        <div class="side-band left-band"></div>
+
+        <main class="content">
+            <h1>Posts</h1>
         <div id="postsContainer"></div>
-    </main>
+        </main>
+
+        <div class="side-band right-band"></div>
+    </div>
+
+    <footer>
+        <p>&copy; Footer</p>
+    </footer>
+    <script defer src="index.js"></script>
+
 </body>
 </html>
