@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const endpoint = "https://api.jsonbin.io/v3/qs/6727c230ad19ca34f8c37c87"; // Replace with your actual endpoint
+    const endpoint = "https://api.jsonbin.io/v3/qs/6727c5d6acd3cb34a8a1f6c8"; 
 
     fetch(endpoint)
         .then(response => {
@@ -9,17 +9,20 @@ document.addEventListener("DOMContentLoaded", function() {
             return response.json();
         })
         .then(data => {
-            console.log(data); // Log the data to check its structure
-            // Check if the data is an array
-            if (!Array.isArray(data)) {
-                throw new TypeError('Expected an array but got ' + typeof data);
+            console.log(data);
+            
+            // Accessing the Posts array from the record object
+            const posts = data.record.Posts; // This is the correct path to the array of posts
+
+            if (!Array.isArray(posts)) {
+                throw new TypeError('Expected an array of posts but got ' + typeof posts);
             }
+
             const postsContainer = document.getElementById("postsContainer");
-            data.forEach(post => {
+            posts.forEach(post => {
                 const postDiv = document.createElement("div");
                 postDiv.className = "post";
 
-                // Check if the image property exists and create HTML accordingly
                 const imageHtml = post.image ? `<img src="${post.image}" alt="Post Image" class="post-image">` : '';
 
                 postDiv.innerHTML = `
