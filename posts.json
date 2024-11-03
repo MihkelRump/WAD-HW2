@@ -1,0 +1,78 @@
+{
+    "Posts":[
+
+    {
+        "id": 1,
+        "title": "I visited Tartu",
+        "content": "Tartu is the second largest city in Estonia after Tallinn. Tartu has a population of 97,435 (as of 2023). It is 186 kilometres (116 miles) southeast of Tallinn and 245 kilometres (152 miles) northeast of Riga, Latvia. Tartu lies on the Emajõgi river, which connects the two largest lakes in Estonia, Lake Võrtsjärv and Lake Peipus. From the 13th century until the end of the 19th century, Tartu was known in most of the world by variants of its historical name Dorpat.",
+        "author": "Alice",
+        "createTime": "2024-11-01T10:00:00Z",
+        "image": "pictures/tartu.jpg.jpg"
+    },
+    {
+        "id": 2,
+        "title": "The Mysterious Case of the Vanishing Genius",
+        "content": "Margaret Profet, evolutionary biologist and MacArthur grant recipient, disappeared in 2005. She has neither been seen nor heard from since.",
+        "author": "Bob",
+        "createTime": "2024-11-02T12:30:00Z"
+    },
+    {
+        "id": 3,
+        "title": "Emajõgi River",
+        "content": "The Emajõgi River flows through Tartu, and it's the second-longest river in Estonia. The river and its scenic banks are a popular place for outdoor activities, picnics, and enjoying the natural beauty of the area.",
+        "author": "Charlie",
+        "createTime": "2024-11-03T15:45:00Z",
+        "image": "pictures/emajõgi.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Estonian National Museum",
+        "content": "The Estonian National Museum, located in Tartu, is a modern and engaging museum that showcases the history and culture of Estonia. It's a must-visit for anyone interested in learning about the country's heritage.",
+        "author": "Diana",
+        "createTime": "2024-11-04T17:00:00Z"
+    },
+    {
+        "id": 5,
+        "title": "Interesting School Fact #1",
+        "content": "Did you know that the first public school in the United States, Boston Latin School, was founded in 1635?",
+        "author": "Eve",
+        "createTime": "2024-11-05T20:15:00Z"
+    },
+    {
+        "id": 6,
+        "title": "Fun School Fact #2",
+        "content": "In Japan, students clean their own classrooms and school facilities. This practice is called 'o-soji.",
+        "author": "Frank",
+        "createTime": "2024-11-06T08:30:00Z"
+    },
+    {
+        "id": 7,
+        "title": "Amazing School Fact #3",
+        "content": "The largest school in the world is City Montessori School in Lucknow, India, with over 56,000 students!",
+        "author": "Grace",
+        "createTime": "2024-11-07T13:45:00Z"
+    },
+    {
+        "id": 8,
+        "title": "Educational Fact #4",
+        "content": "The world's oldest existing and continually operating educational institution is the University of al-Qarawiyyin in Morocco, founded in 859 AD.",
+        "author": "Henry",
+        "createTime": "2024-11-08T19:00:00Z"
+    },
+    {
+        "id": 9,
+        "title": "School Trivia #5",
+        "content": "Some schools in Finland have no homework, and students have shorter school days. It's one of the world's most successful education systems.",
+        "author": "Ivy",
+        "createTime": "2024-11-09T21:30:00Z"
+    },
+    {
+        "id": 10,
+        "title": "Nature",
+        "content": "I took this beautiful picture today.",
+        "author": "Jack",
+        "createTime": "2024-11-10T23:00:00Z",
+        "image": "pictures/nature.jpg.webp"
+    }
+]
+}
