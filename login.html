@@ -8,8 +8,18 @@
 </head>
 <body>
     <nav>
-        <a href="index.html" class="nav-link" id="homeLink">Home</a>
-        <a href="addPost.html" class="nav-link" id="addPostLink">Add Post</a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" id="homeLink">Home</a>
+            
+        </div>
+        <div id="userMenu" onclick="toggleDropdown()">
+            <img src="blank-profile-picture-973460_1280.webp" alt="User" class="user-photo">
+            <div id="dropdown" class="dropdown-content">
+                <p>Username: user123</p>
+                <p>Email: user@example.com</p>
+                <a href="login.html">Logout</a>
+            </div>
+        </div>
     </nav>
 
     <main>
